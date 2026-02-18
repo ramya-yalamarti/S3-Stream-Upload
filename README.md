@@ -128,10 +128,6 @@ complete() ──────> upload leftover ──> CompleteMultipartUpload �
 mvn clean package
 ```
 
-## Inspiration
-
-Inspired by [alexmojaki/s3-stream-upload](https://github.com/alexmojaki/s3-stream-upload), with the addition of per-part retry with exponential backoff for resilient uploads.
-
 ## License
 
 MIT
